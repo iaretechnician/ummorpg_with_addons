@@ -16,18 +16,1320 @@ MonoBehaviour:
     UserAgreesToHaveItOnTheScene: 0
     UserAgreesToHaveItInsideThePluginsFolder: 0
     GoogleLiveSyncIsUptoDate: 1
-    mTerms: []
+    mTerms:
+    - Term: LOC:Enter text...
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter Text
+      - Ingresar Texto
+      - Saisir Du Texte
+      - Text Eingeben
+      - Digite O Texto
+      - Wpisz Tekst
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Cancel
+      TermType: 0
+      Description: 
+      Languages:
+      - Cancel
+      - Cancelar
+      - Annuler
+      - Stornieren
+      - Cancelar
+      - "Anulowa\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Confirmation
+      TermType: 0
+      Description: 
+      Languages:
+      - Confirmation
+      - "Confirmaci\xF3n"
+      - Confirmation
+      - "Best\xE4tigung"
+      - "Confirma\xE7\xE3o"
+      - Potwierdzenie
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Got it!
+      TermType: 0
+      Description: 
+      Languages:
+      - Got It
+      - Entiendo
+      - J'ai Compris
+      - Habe Es
+      - Entendi
+      - "Zrozumia\u0142em"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Ok
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - OK
+      - D'accord
+      - OK
+      - OK
+      - OK
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Name
+      TermType: 0
+      Description: 
+      Languages:
+      - Name
+      - Nombre
+      - Nom
+      - Name
+      - Nome
+      - Nazwa
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Pass
+      TermType: 0
+      Description: 
+      Languages:
+      - Pass
+      - Aprobar
+      - Passer
+      - Passieren
+      - Passar
+      - "Przechodzi\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 'LOC:Server:'
+      TermType: 0
+      Description: 
+      Languages:
+      - Server
+      - Servidor
+      - Serveur
+      - Server
+      - Servidor
+      - Serwer
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Login
+      TermType: 0
+      Description: 
+      Languages:
+      - Login
+      - Acceso
+      - Se Connecter
+      - Login
+      - Conecte-Se
+      - Login
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Create Account
+      TermType: 0
+      Description: 
+      Languages:
+      - Create Account
+      - Crear Una Cuenta
+      - "Cr\xE9er Un Compte"
+      - Benutzerkonto Erstellen
+      - Criar Uma Conta
+      - "Utw\xF3rz Konto"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Quit
+      TermType: 0
+      Description: 
+      Languages:
+      - Quit
+      - Abandonar
+      - Quitter
+      - "Aufh\xF6ren"
+      - Desistir
+      - "Zrezygnowa\u0107 "
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Server & Play
+      TermType: 0
+      Description: 
+      Languages:
+      - Server & Play
+      - Servidor Y Juego
+      - Serveur Et Jeu
+      - Server & Spielen
+      - Servidor E Jogo
+      - Serwer I Graj
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Server Only
+      TermType: 0
+      Description: 
+      Languages:
+      - Server Only
+      - Solo Servidor
+      - Serveur Uniquement
+      - Nur Server
+      - Apenas Servidor
+      - Tylko Serwer
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Character Creation
+      TermType: 0
+      Description: 
+      Languages:
+      - Character Creation
+      - "Creaci\xF3n De Personajes"
+      - "Cr\xE9ation De Personnage"
+      - Charaktererstellung
+      - "Cria\xE7\xE3o De Personagem"
+      - Tworzenie Postaci
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 'LOC: Class'
+      TermType: 0
+      Description: 
+      Languages:
+      - Class
+      - Clase
+      - Classe
+      - Klasse
+      - Aula
+      - Klasa
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 'LOC: Create'
+      TermType: 0
+      Description: 
+      Languages:
+      - Create
+      - Crear
+      - "Cr\xE9er"
+      - Erstellen
+      - Criar
+      - "Tworzy\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 'LOC: Game Master'
+      TermType: 0
+      Description: 
+      Languages:
+      - Game Master
+      - Maestro Del Juego
+      - "Ma\xEEtre Du Jeu"
+      - Spielleiter
+      - Mestre Do Jogo
+      - Mistrz Gry
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 'LOC: Start'
+      TermType: 0
+      Description: 
+      Languages:
+      - Character Selection
+      - "Selecci\xF3n De Personajes"
+      - "S\xE9lection De Personnages"
+      - Charakterauswahl
+      - "Sele\xE7\xE3o De Personagem"
+      - "Wyb\xF3r Postaci"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 'LOC: Character Selection'
+      TermType: 0
+      Description: 
+      Languages:
+      - Character Selection
+      - "Selecci\xF3n De Personajes"
+      - "S\xE9lection De Personnages"
+      - Charakterauswahl
+      - "Sele\xE7\xE3o De Personagem"
+      - "Wyb\xF3r Postaci"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 'LOC: Delete'
+      TermType: 0
+      Description: 
+      Languages:
+      - Delete
+      - Borrar
+      - Supprimer
+      - "L\xF6schen"
+      - Excluir
+      - "Usuwa\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:You Died
+      TermType: 0
+      Description: 
+      Languages:
+      - You Died
+      - Moriste
+      - Tu Es Mort
+      - Du Bist Gestorben
+      - "Voc\xEA Morreu"
+      - "Umar\u0142e\u015B"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Respawn
+      TermType: 0
+      Description: 
+      Languages:
+      - Respawn
+      - Reaparecer
+      - "R\xE9appara\xEEtre"
+      - Respawn
+      - Reaparecer
+      - "Odrodzi\u0107 Si\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Invited to Party
+      TermType: 0
+      Description: 
+      Languages:
+      - Has invited you to their Party.
+      - Te ha invitado a su fiesta.
+      - "Vous a invit\xE9 \xE0 leur f\xEAte."
+      - Hat dich zu ihrer Party eingeladen.
+      - "Convidou voc\xEA para a festa deles."
+      - "Zaprosi\u0142 Ci\u0119 na swoj\u0105 imprez\u0119."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Accept
+      TermType: 0
+      Description: 
+      Languages:
+      - Accept
+      - Aceptar
+      - Accepter
+      - Akzeptieren
+      - Aceitar
+      - "Przyj\u0105\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Decline
+      TermType: 0
+      Description: 
+      Languages:
+      - Decline
+      - Rechazar
+      - "D\xE9clin"
+      - Abfall
+      - "Decl\xEDnio"
+      - Spadek
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Party Invitation
+      TermType: 0
+      Description: 
+      Languages:
+      - Party Invitation
+      - "Invitaci\xF3n De Fiesta"
+      - "Invitation \xC0 Une F\xEAte"
+      - Party-Einladung
+      - Convite Para Festa
+      - "Zaproszenie Na Imprez\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Wants to trade with you!
+      TermType: 0
+      Description: 
+      Languages:
+      - Wants to trade with you!
+      - "\xA1Quiere comerciar con usted!"
+      - "Veut \xE9changer avec vous\_!"
+      - "M\xF6chte mit Ihnen handeln!"
+      - "Quer negociar com voc\xEA!"
+      - "Chce z tob\u0105 handlowa\u0107!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Player Trade Request
+      TermType: 0
+      Description: 
+      Languages:
+      - Player Trade Request
+      - Solicitud De Cambio De Jugador
+      - "Demande D'\xE9change De Joueur"
+      - Spielertauschanfrage
+      - "Solicita\xE7\xE3o De Troca De Jogador"
+      - "Pro\u015Bba O Wymian\u0119 Gracza"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Guild Invitation
+      TermType: 0
+      Description: 
+      Languages:
+      - Guild Invitation
+      - "Invitaci\xF3n Del Gremio"
+      - Invitation De Guilde
+      - Gildeneinladung
+      - Convite De Guilda
+      - Zaproszenie Gildii
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Has invited you to their Guild.
+      TermType: 0
+      Description: 
+      Languages:
+      - Has invited you to their Guild.
+      - Te ha invitado a su gremio.
+      - "Vous a invit\xE9 dans leur guilde."
+      - Hat dich in ihre Gilde eingeladen.
+      - "Convidou voc\xEA para sua guilda."
+      - "Zaprosi\u0142 Ci\u0119 do swojej Gildii."
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Send
+      TermType: 0
+      Description: 
+      Languages:
+      - Send
+      - Enviar
+      - Envoyer
+      - Schicken
+      - Enviar
+      - "Wys\u0142a\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Gold
+      TermType: 0
+      Description: 
+      Languages:
+      - Gold
+      - Oro
+      - Or
+      - Gold
+      - Ouro
+      - "Z\u0142oto"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Revive Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag your summonable item in here to revive it!
+      - "\xA1Arrastra tu objeto invocable aqu\xED para revivirlo!"
+      - "Faites glisser votre objet invocable ici pour le faire revivre\_!"
+      - "Ziehen Sie Ihren beschw\xF6rbaren Gegenstand hierher, um ihn wiederzubeleben!"
+      - "Arraste seu item invoc\xE1vel aqui para reviv\xEA-lo!"
+      - "Przeci\u0105gnij tutaj sw\xF3j przywo\u0142ywany przedmiot, aby go o\u017Cywi\u0107!"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Revive
+      TermType: 0
+      Description: 
+      Languages:
+      - Revive
+      - Reanimar
+      - Relancer
+      - Beleben
+      - Reviver
+      - "Wskrzesi\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Create Guild
+      TermType: 0
+      Description: 
+      Languages:
+      - Create Guild
+      - Crear Gremio
+      - "Cr\xE9er Une Guilde"
+      - "Gilde Gr\xFCnden"
+      - Criar Guilda
+      - "Utw\xF3rz Gildi\u0119"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Npc Guild Management
+      TermType: 0
+      Description: 
+      Languages:
+      - Npc Guild Management
+      - "Gesti\xF3n Del Gremio Npc"
+      - Gestion De Guilde PNJ
+      - NPC-Gildenverwaltung
+      - Gerenciamento De Guilda Npc
+      - "Zarz\u0105dzanie Gildi\u0105 NPC"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Price
+      TermType: 0
+      Description: 
+      Languages:
+      - Price
+      - Precio
+      - Prix
+      - Preis
+      - "Pre\xE7o"
+      - Cena
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Buy Item
+      TermType: 0
+      Description: 
+      Languages:
+      - Buy Item
+      - "Comprar Art\xEDculo"
+      - Acheter Un Article
+      - Artikel Kaufen
+      - Comprar Item
+      - Kup Przedmiot
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Npc Trading
+      TermType: 0
+      Description: 
+      Languages:
+      - Npc Trading
+      - Comercio De PNJ
+      - Commerce De PNJ
+      - NPC-Handel
+      - "Negocia\xE7\xE3o De Npc"
+      - Handel NPC
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Repair Items
+      TermType: 0
+      Description: 
+      Languages:
+      - Repair Items
+      - "Art\xEDculos De Reparaci\xF3n"
+      - "Articles De R\xE9paration"
+      - Reparaturartikel
+      - Itens De Reparo
+      - "Naprawi\u0107 Elementy"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 'LOC:Sell Item:'
+      TermType: 0
+      Description: 
+      Languages:
+      - Sell Item
+      - "Vender Art\xEDculo"
+      - Vendre Un Article
+      - Artikel Verkaufen
+      - Vender Item
+      - "Sprzeda\u0107 Przedmiot"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Items for Sale
+      TermType: 0
+      Description: 
+      Languages:
+      - Items for Sale
+      - "Art\xEDculos en venta"
+      - "Articles \xE0 vendre"
+      - Artikel zum Verkauf
+      - "Itens \xE0 venda"
+      - "Przedmioty na sprzeda\u017C"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Npc Quests
+      TermType: 0
+      Description: 
+      Languages:
+      - Npc Quests
+      - Misiones De PNJ
+      - "Qu\xEAtes PNJ"
+      - NPC-Quests
+      - "Miss\xF5es De NPC"
+      - Zadania NPC
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Npc Dialogue
+      TermType: 0
+      Description: 
+      Languages:
+      - Npc Dialogue
+      - "Di\xE1logo Npc"
+      - Dialogue Avec Les PNJ
+      - NPC-Dialog
+      - "Di\xE1logo Npc"
+      - Dialog NPC
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 'LOC:Max Connections:'
+      TermType: 0
+      Description: 
+      Languages:
+      - Max Connections
+      - "Conexiones M\xE1ximas"
+      - Connexions Maximales
+      - Maximale Verbindungen
+      - "M\xE1ximo De Conex\xF5es"
+      - "Maksymalne Po\u0142\u0105czenia"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Online Players
+      TermType: 0
+      Description: 
+      Languages:
+      - Online Players
+      - "Jugadores En L\xEDnea"
+      - Joueurs En Ligne
+      - Online-Spieler
+      - Jogadores On-Line
+      - Gracze Online
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Shutdown
+      TermType: 0
+      Description: 
+      Languages:
+      - Shutdown
+      - Cerrar
+      - Fermer
+      - Abschalten
+      - Desligar
+      - "Zamkni\u0119cie"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Skill Exp
+      TermType: 0
+      Description: 
+      Languages:
+      - Skill Exp
+      - Experiencia De Habilidad
+      - "Exp\xE9rience De Comp\xE9tence"
+      - Fertigkeit Exp
+      - "Experi\xEAncia De Habilidade"
+      - "Do\u015Bwiadczenie Umiej\u0119tno\u015Bci"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Tick Rate
+      TermType: 0
+      Description: 
+      Languages:
+      - Tick Rate
+      - Tasa De Ticks
+      - Taux De Tick
+      - Tick-Rate
+      - Taxa De Tick
+      - "Wsp\xF3\u0142czynnik Zaznaczenia"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Uptime
+      TermType: 0
+      Description: 
+      Languages:
+      - Uptime
+      - Tiempo De Actividad
+      - "Disponibilit\xE9"
+      - Betriebszeit
+      - Tempo De Atividade
+      - Czas Pracy
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Invincible
+      TermType: 0
+      Description: 
+      Languages:
+      - Invincible
+      - Invencible
+      - Invincible
+      - Unbesiegbar
+      - "Invenc\xEDvel"
+      - "Niezwyci\u0119\u017Cony"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Game Master
+      TermType: 0
+      Description: 
+      Languages:
+      - Game Master
+      - Maestro Del Juego
+      - "Ma\xEEtre Du Jeu"
+      - Spielleiter
+      - Mestre Do Jogo
+      - Mistrz Gry
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Exp
+      TermType: 0
+      Description: 
+      Languages:
+      - Experience
+      - Experiencia
+      - "Exp\xE9rience"
+      - Erfahrung
+      - "Experi\xEAncia"
+      - "Do\u015Bwiadczenie"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Connections
+      TermType: 0
+      Description: 
+      Languages:
+      - Connections
+      - Conexiones
+      - Relations
+      - Verbindungen
+      - "Conex\xF5es"
+      - "Znajomo\u015Bci"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Coins
+      TermType: 0
+      Description: 
+      Languages:
+      - Coins
+      - Monedas
+      - "Pi\xE8ces"
+      - "M\xFCnzen"
+      - Moedas
+      - Monety
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Character
+      TermType: 0
+      Description: 
+      Languages:
+      - Character
+      - Personaje
+      - Personnage
+      - Charakter
+      - Personagem
+      - Charakter
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Kill
+      TermType: 0
+      Description: 
+      Languages:
+      - Kill
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Warp
+      TermType: 0
+      Description: 
+      Languages:
+      - Warp
+      - Urdimbre
+      - "Cha\xEEne"
+      - Kette
+      - Urdidura
+      - Osnowa
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Kick
+      TermType: 0
+      Description: 
+      Languages:
+      - Kick
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Summon
+      TermType: 0
+      Description: 
+      Languages:
+      - Summon
+      - Convocar
+      - Convoquer
+      - "Beschw\xF6ren"
+      - Convocar
+      - "Wezwa\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: 'LOC:Capacity:'
+      TermType: 0
+      Description: 
+      Languages:
+      - Capacity
+      - Capacidad
+      - "Capacit\xE9"
+      - "Kapazit\xE4t"
+      - Capacidade
+      - "Pojemno\u015B\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Gold Auto Share
+      TermType: 0
+      Description: 
+      Languages:
+      - Gold Auto Share
+      - Auto Compartido De Oro
+      - Partage Automatique D'or
+      - Gold-Auto-Aktie
+      - "Compartilhamento Autom\xE1tico De Ouro"
+      - "Automatyczna Akcja Z\u0142ota"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Exp. Auto Share
+      TermType: 0
+      Description: 
+      Languages:
+      - Exp. Auto Share
+      - "Exp. Compartir Autom\xE1ticamente"
+      - Exp. Partage Automatique
+      - Exp. Automatisches Teilen
+      - "Exp. Compartilhamento Autom\xE1tico"
+      - "Do Pot\u0119gi. Automatyczne Udost\u0119pnianie"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Party
+      TermType: 0
+      Description: 
+      Languages:
+      - Party
+      - Fiesta
+      - "Faire La F\xEAte"
+      - Party
+      - Festa
+      - Impreza
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Action
+      TermType: 0
+      Description: 
+      Languages:
+      - Action
+      - "Acci\xF3n"
+      - Action
+      - Aktion
+      - "A\xE7\xE3o"
+      - "Dzia\u0142anie"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Guild
+      TermType: 0
+      Description: 
+      Languages:
+      - Guild
+      - Gremio
+      - Guilde
+      - Gilde
+      - Guilda
+      - Gildia
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:My Offer
+      TermType: 0
+      Description: 
+      Languages:
+      - My Offer
+      - Mi Oferta
+      - Mon Offre
+      - Mein Angebot
+      - Minha Oferta
+      - Moja Oferta
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Player Trading
+      TermType: 0
+      Description: 
+      Languages:
+      - Player Trading
+      - Intercambio De Jugadores
+      - "\xC9change De Joueurs"
+      - Spielerhandel
+      - "Negocia\xE7\xE3o De Jogadores"
+      - Handel Graczami
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Player's Offer
+      TermType: 0
+      Description: 
+      Languages:
+      - Player's Offer
+      - Oferta Del Jugador
+      - Offre Du Joueur
+      - Angebot Des Spielers
+      - Oferta Do Jogador
+      - Oferta Gracza
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Accepted
+      TermType: 0
+      Description: 
+      Languages:
+      - '[Accepted]'
+      - '[Aceptado]'
+      - "[Accept\xE9]"
+      - '[Akzeptiert]'
+      - '[Aceito]'
+      - "[Przyj\u0119ty]"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Quests
+      TermType: 0
+      Description: 
+      Languages:
+      - Quests
+      - Misiones
+      - "Qu\xEAtes"
+      - Quests
+      - "Miss\xF5es"
+      - Zadania
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Loot
+      TermType: 0
+      Description: 
+      Languages:
+      - Loot
+      - "Bot\xEDn"
+      - Butin
+      - Beute
+      - Saque
+      - "\u0141up"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Take Gold
+      TermType: 0
+      Description: 
+      Languages:
+      - Take Gold
+      - Tomar Oro
+      - Prendre De L'or
+      - Nimm Gold
+      - Pegue Ouro
+      - "We\u017A Z\u0142oto"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Categories
+      TermType: 0
+      Description: 
+      Languages:
+      - Categories
+      - Categorias
+      - "Cat\xE9gories"
+      - Kategorien
+      - Categorias
+      - Kategorie
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Item Mall
+      TermType: 0
+      Description: 
+      Languages:
+      - Item Mall
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Overview
+      TermType: 0
+      Description: 
+      Languages:
+      - Overview
+      - "Descripci\xF3n General"
+      - "Aper\xE7u"
+      - "\xDCberblick"
+      - "Vis\xE3o Geral"
+      - "Przegl\u0105d"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Buy Coins
+      TermType: 0
+      Description: 
+      Languages:
+      - Buy Coins
+      - Comprar Monedas
+      - "Acheter Des Pi\xE8ces"
+      - "M\xFCnzen Kaufen"
+      - Comprar Moedas
+      - Kup Monety
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Enter
+      TermType: 0
+      Description: 
+      Languages:
+      - Enter
+      - Ingresar
+      - Entrer
+      - Eingeben
+      - Digitar
+      - "Wchodzi\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Edit
+      TermType: 0
+      Description: 
+      Languages:
+      - Edit
+      - Editar
+      - Modifier
+      - Bearbeiten
+      - Editar
+      - "Redagowa\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Guild Master
+      TermType: 0
+      Description: 
+      Languages:
+      - Guild Master
+      - Maestro Del Gremio
+      - "Ma\xEEtre De Guilde"
+      - Gildenmeister
+      - Mestre Da Guilda
+      - Mistrz Gildii
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Leave Guild
+      TermType: 0
+      Description: 
+      Languages:
+      - Leave Guild
+      - 
+      - 
+      - 
+      - 
+      - 
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Member
+      TermType: 0
+      Description: 
+      Languages:
+      - Member
+      - Miembro
+      - Membre
+      - Mitglied
+      - Membro
+      - "Cz\u0142onek"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Notice
+      TermType: 0
+      Description: 
+      Languages:
+      - Notice
+      - Aviso
+      - Avis
+      - Beachten
+      - Perceber
+      - "Og\u0142oszenie"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Rank
+      TermType: 0
+      Description: 
+      Languages:
+      - Rank
+      - Rango
+      - Rang
+      - Rang
+      - "Classifica\xE7\xE3o"
+      - "Stopie\u0144"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Set
+      TermType: 0
+      Description: 
+      Languages:
+      - Set
+      - Colocar
+      - Ensemble
+      - Satz
+      - Definir
+      - "Ustawi\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Block
+      TermType: 0
+      Description: 
+      Languages:
+      - Block
+      - Bloquear
+      - Bloc
+      - Block
+      - Bloquear
+      - Blok
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Character Info
+      TermType: 0
+      Description: 
+      Languages:
+      - Character Info
+      - "Informaci\xF3n Del Personaje"
+      - Informations Sur Le Personnage
+      - Charakterinformationen
+      - "Informa\xE7\xF5es Do Personagem"
+      - Informacje O Postaci
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Craft
+      TermType: 0
+      Description: 
+      Languages:
+      - Craft
+      - "Artesan\xEDa"
+      - Artisanat
+      - Handwerk
+      - Arte
+      - "Rzemios\u0142o"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Crafting
+      TermType: 0
+      Description: 
+      Languages:
+      - Crafting
+      - "Elaboraci\xF3n"
+      - Artisanat
+      - Basteln
+      - "Elabora\xE7\xE3o"
+      - "Rzemios\u0142o"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Critical
+      TermType: 0
+      Description: 
+      Languages:
+      - Critical
+      - "Cr\xEDtico"
+      - Critique
+      - Kritisch
+      - "Cr\xEDtico"
+      - Krytyczny
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Damage
+      TermType: 0
+      Description: 
+      Languages:
+      - Damage
+      - "Da\xF1o"
+      - Dommage
+      - Schaden
+      - Dano
+      - Szkoda
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Defense
+      TermType: 0
+      Description: 
+      Languages:
+      - Defense
+      - Defensa
+      - "D\xE9fense"
+      - Verteidigung
+      - Defesa
+      - Obrona
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Exp. cur
+      TermType: 0
+      Description: 
+      Languages:
+      - Exp Cur
+      - Exp Cur
+      - Exp Cur
+      - Exp
+      - Exp Cur
+      - Ekspr
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Exp. max
+      TermType: 0
+      Description: 
+      Languages:
+      - Exp Max
+      - "Exp M\xE1x."
+      - "Exp\xE9rience Maximale"
+      - Exp Max
+      - "Experi\xEAncia M\xE1xima"
+      - Maks. Eksp
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Level
+      TermType: 0
+      Description: 
+      Languages:
+      - Level
+      - Nivel
+      - Niveau
+      - Ebene
+      - "N\xEDvel"
+      - Poziom
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Stats
+      TermType: 0
+      Description: 
+      Languages:
+      - Stats
+      - "Estad\xEDsticas"
+      - Statistiques
+      - Statistiken
+      - "Estat\xEDsticas"
+      - Statystyki
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Speed
+      TermType: 0
+      Description: 
+      Languages:
+      - Speed
+      - Velocidad
+      - Vitesse
+      - Geschwindigkeit
+      - Velocidade
+      - "Pr\u0119dko\u015B\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Max. Health
+      TermType: 0
+      Description: 
+      Languages:
+      - Max Health
+      - "Salud M\xE1xima"
+      - "Sant\xE9 Maximale"
+      - Maximale Gesundheit
+      - "Sa\xFAde M\xE1xima"
+      - Maksymalne Zdrowie
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Max. Mana
+      TermType: 0
+      Description: 
+      Languages:
+      - Max Mana
+      - "Man\xE1 M\xE1ximo"
+      - Mana Maximum
+      - Maximales Mana
+      - "Mana M\xE1xima"
+      - Maksymalna Mana
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Result
+      TermType: 0
+      Description: 
+      Languages:
+      - Result
+      - Resultado
+      - "R\xE9sultat"
+      - Ergebnis
+      - Resultado
+      - Wynik
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Attributes
+      TermType: 0
+      Description: 
+      Languages:
+      - Attributes
+      - Atributos
+      - Attributs
+      - Attribute
+      - Atributos
+      - Atrybuty
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Strength
+      TermType: 0
+      Description: 
+      Languages:
+      - Strength
+      - Fortaleza
+      - Force
+      - "St\xE4rke"
+      - "For\xE7a"
+      - "Wytrzyma\u0142o\u015B\u0107"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Intelligence
+      TermType: 0
+      Description: 
+      Languages:
+      - Intelligence
+      - Inteligencia
+      - Intelligence
+      - Intelligenz
+      - "Intelig\xEAncia"
+      - Inteligencja
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Available Skill Exp
+      TermType: 0
+      Description: 
+      Languages:
+      - Avaliable Skill Exp
+      - Experiencia De Habilidad Disponible
+      - "Exp\xE9rience De Comp\xE9tence Disponible"
+      - "Verf\xFCgbare Fertigkeit Exp"
+      - "Experi\xEAncia De Habilidade Dispon\xEDvel"
+      - "Dost\u0119pne Do\u015Bwiadczenie Umiej\u0119tno\u015Bci"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Skills
+      TermType: 0
+      Description: 
+      Languages:
+      - Skills
+      - Habilidades
+      - "Comp\xE9tences"
+      - "F\xE4higkeiten"
+      - Habilidades
+      - "Umiej\u0119tno\u015Bci"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Equipment
+      TermType: 0
+      Description: 
+      Languages:
+      - Equipment
+      - Equipo
+      - "\xC9quipement"
+      - "Ausr\xFCstung"
+      - Equipamento
+      - "Sprz\u0119t"
+      Flags: 000000000000
+      Languages_Touch: []
+    - Term: LOC:Inventory
+      TermType: 0
+      Description: 
+      Languages:
+      - Inventory
+      - Inventario
+      - Inventaire
+      - Inventar
+      - "Invent\xE1rio"
+      - Spis
+      Flags: 000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
-    mLanguages: []
-    IgnoreDeviceLanguage: 0
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    - Name: French
+      Code: fr
+      Flags: 0
+    - Name: German
+      Code: de
+      Flags: 0
+    - Name: Portuguese
+      Code: pt
+      Flags: 0
+    - Name: Polish
+      Code: pl
+      Flags: 0
+    IgnoreDeviceLanguage: 1
     _AllowUnloadingLanguages: 0
-    Google_WebServiceURL: 
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbx-uCxRfnu875CgEvf0L7pIF5VONiybwITc9M3rmJsWwEDTCGxe0Y2IvWSZM8she-my/exec
     Google_SpreadsheetKey: 
     Google_SpreadsheetName: 
     Google_LastUpdatedVersion: 
-    Google_Password: change_this
+    Google_Password: Inc0rrect
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2
     GoogleUpdateSynchronization: 1
