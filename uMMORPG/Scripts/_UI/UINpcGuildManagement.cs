@@ -1,12 +1,13 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 public partial class UINpcGuildManagement : MonoBehaviour
 {
     public static UINpcGuildManagement singleton;
     public GameObject panel;
-    public Text createPriceText;
-    public InputField createNameInput;
+    public TextMeshProUGUI createPriceText;
+    public TMP_InputField createNameInput;
     public Button createButton;
     public Button terminateButton;
 

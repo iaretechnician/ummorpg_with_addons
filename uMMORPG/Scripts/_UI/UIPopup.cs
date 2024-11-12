@@ -1,11 +1,11 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using TMPro;
+using UnityEngine;
 
 public class UIPopup : MonoBehaviour
 {
     public static UIPopup singleton;
     public GameObject panel;
-    public Text messageText;
+    public TextMeshProUGUI messageText;
 
     public UIPopup()
     {

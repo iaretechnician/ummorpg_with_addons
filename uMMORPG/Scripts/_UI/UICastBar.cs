@@ -1,12 +1,13 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 public partial class UICastBar : MonoBehaviour
 {
     public GameObject panel;
     public Slider slider;
-    public Text skillNameText;
-    public Text progressText;
+    public TextMeshProUGUI skillNameText;
+    public TextMeshProUGUI progressText;
 
     void Update()
     {

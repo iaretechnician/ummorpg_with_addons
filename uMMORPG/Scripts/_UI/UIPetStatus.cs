@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class UIPetStatus : MonoBehaviour
@@ -8,8 +9,8 @@ public class UIPetStatus : MonoBehaviour
     public Image image;
     public Slider healthSlider;
     public Slider experienceSlider;
-    public Text nameText;
-    public Text levelText;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI levelText;
     public Button autoAttackButton;
     public Button defendOwnerButton;
     public Button unsummonButton;

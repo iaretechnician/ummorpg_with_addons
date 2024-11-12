@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Mirror;
+using TMPro;
 
 public partial class UIItemMall : MonoBehaviour
 {
@@ -13,11 +14,11 @@ public partial class UIItemMall : MonoBehaviour
     public Transform itemContent;
     public string buyUrl = "http://unity3d.com/";
     int currentCategory = 0;
-    public Text nameText;
-    public Text levelText;
-    public Text currencyAmountText;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI levelText;
+    public TextMeshProUGUI currencyAmountText;
     public Button buyButton;
-    public InputField couponInput;
+    public TMP_InputField couponInput;
     public Button couponButton;
     public GameObject inventoryPanel;
 

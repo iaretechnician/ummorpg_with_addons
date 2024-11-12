@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 public partial class UINpcTrading : MonoBehaviour
@@ -8,12 +9,12 @@ public partial class UINpcTrading : MonoBehaviour
     public UINpcTradingSlot slotPrefab;
     public Transform content;
     public UIDragAndDropable buySlot;
-    public InputField buyAmountInput;
-    public Text buyCostsText;
+    public TMP_InputField buyAmountInput;
+    public TextMeshProUGUI buyCostsText;
     public Button buyButton;
     public UIDragAndDropable sellSlot;
-    public InputField sellAmountInput;
-    public Text sellCostsText;
+    public TMP_InputField sellAmountInput;
+    public TextMeshProUGUI sellCostsText;
     public Button sellButton;
     public Button repairButton;
     [HideInInspector] public int buyIndex = -1;

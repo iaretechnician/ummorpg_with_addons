@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -55,7 +56,7 @@ public partial class UINpcQuests : MonoBehaviour
                         slot.descriptionText.text += "\n<color=red>Not enough inventory space!</color>";
 
                     slot.actionButton.interactable = player.quests.CanComplete(quest.name);
-                    slot.actionButton.GetComponentInChildren<Text>().text = "Complete";
+                    slot.actionButton.GetComponentInChildren<TextMeshProUGUI>().text = "Complete";
                     slot.actionButton.onClick.SetListener(() => {
                         player.quests.CmdComplete(npcIndex);
                         panel.SetActive(false);
@@ -66,7 +67,7 @@ public partial class UINpcQuests : MonoBehaviour
                     // new quest
                     slot.descriptionText.text = new Quest(npcQuest).ToolTip(player);
                     slot.actionButton.interactable = true;
-                    slot.actionButton.GetComponentInChildren<Text>().text = "Accept";
+                    slot.actionButton.GetComponentInChildren<TextMeshProUGUI>().text = "Accept";
                     slot.actionButton.onClick.SetListener(() => {
                         player.quests.CmdAccept(npcIndex);
                     });

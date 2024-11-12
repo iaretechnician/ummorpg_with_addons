@@ -1,5 +1,6 @@
 ﻿// Attach to the prefab for easier component access by the UI Scripts.
 // Otherwise we would need slot.GetChild(0).GetComponentInChildren<Text> etc.
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,7 +10,7 @@ public class UILootSlot : MonoBehaviour
     public UIShowToolTip tooltip;
     public UIDragAndDropable dragAndDropable;
     public Image image;
-    public Text nameText;
+    public TextMeshProUGUI nameText;
     public GameObject amountOverlay;
-    public Text amountText;
+    public TextMeshProUGUI amountText;
 }

@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Mirror;
+using TMPro;
 
 public partial class UIGuild : MonoBehaviour
 {
     public KeyCode hotKey = KeyCode.G;
     public GameObject panel;
-    public Text nameText;
-    public Text masterText;
-    public Text currentCapacityText;
-    public Text maximumCapacityText;
-    public InputField noticeInput;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI masterText;
+    public TextMeshProUGUI currentCapacityText;
+    public TextMeshProUGUI maximumCapacityText;
+    public TMP_InputField noticeInput;
     public Button noticeEditButton;
     public Button noticeSetButton;
     public UIGuildMemberSlot slotPrefab;

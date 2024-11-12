@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 public partial class UIChat : MonoBehaviour
 {
     public static UIChat singleton;
     public GameObject panel;
-    public InputField messageInput;
+    public TMP_InputField messageInput;
     public Button sendButton;
     public Transform content;
     public ScrollRect scrollRect;
@@ -87,7 +88,7 @@ public partial class UIChat : MonoBehaviour
 
         // instantiate and initialize text prefab with parent
         GameObject go = Instantiate(message.textPrefab, content.transform, false);
-        go.GetComponent<Text>().text = message.Construct();
+        go.GetComponent<TextMeshProUGUI>().text = message.Construct();
         go.GetComponent<UIChatEntry>().message = message;
 
         AutoScroll();

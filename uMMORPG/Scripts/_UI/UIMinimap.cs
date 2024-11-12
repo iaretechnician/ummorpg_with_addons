@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public partial class UIMinimap : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public partial class UIMinimap : MonoBehaviour
     public float zoomMin = 5;
     public float zoomMax = 50;
     public float zoomStepSize = 5;
-    public Text sceneText;
+    public TextMeshProUGUI sceneText;
     public Button plusButton;
     public Button minusButton;
     public Camera minimapCamera;

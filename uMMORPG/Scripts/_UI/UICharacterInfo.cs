@@ -1,5 +1,6 @@
 ﻿// Note: this script has to be on an always-active UI parent, so that we can
 // always react to the hotkey.
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,20 +8,20 @@ public partial class UICharacterInfo : MonoBehaviour
 {
     public KeyCode hotKey = KeyCode.T;
     public GameObject panel;
-    public Text damageText;
-    public Text defenseText;
-    public Text healthText;
-    public Text manaText;
-    public Text criticalChanceText;
-    public Text blockChanceText;
-    public Text speedText;
-    public Text levelText;
-    public Text currentExperienceText;
-    public Text maximumExperienceText;
-    public Text skillExperienceText;
-    public Text attributesText;
-    public Text strengthText;
-    public Text intelligenceText;
+    public TextMeshProUGUI damageText;
+    public TextMeshProUGUI defenseText;
+    public TextMeshProUGUI healthText;
+    public TextMeshProUGUI manaText;
+    public TextMeshProUGUI criticalChanceText;
+    public TextMeshProUGUI blockChanceText;
+    public TextMeshProUGUI speedText;
+    public TextMeshProUGUI levelText;
+    public TextMeshProUGUI currentExperienceText;
+    public TextMeshProUGUI maximumExperienceText;
+    public TextMeshProUGUI skillExperienceText;
+    public TextMeshProUGUI attributesText;
+    public TextMeshProUGUI strengthText;
+    public TextMeshProUGUI intelligenceText;
     public Button strengthButton;
     public Button intelligenceButton;
 

@@ -1,13 +1,14 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 public partial class UIHealthMana : MonoBehaviour
 {
     public GameObject panel;
     public Slider healthSlider;
-    public Text healthStatus;
+    public TextMeshProUGUI healthStatus;
     public Slider manaSlider;
-    public Text manaStatus;
+    public TextMeshProUGUI manaStatus;
 
     void Update()
     {

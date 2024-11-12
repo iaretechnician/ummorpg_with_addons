@@ -2,13 +2,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 using Mirror;
+using TMPro;
 
 public partial class UICharacterCreation : MonoBehaviour
 {
     public NetworkManagerMMO manager; // singleton is null until update
     public GameObject panel;
-    public InputField nameInput;
-    public Dropdown classDropdown;
+    public TMP_InputField nameInput;
+    public TMP_Dropdown classDropdown;
     public Toggle gameMasterToggle;
     public Button createButton;
     public Button cancelButton;
@@ -24,9 +25,7 @@ public partial class UICharacterCreation : MonoBehaviour
                 Show();
 
                 // copy player classes to class selection
-                classDropdown.options = manager.playerClasses.Select(
-                    p => new Dropdown.OptionData(p.name)
-                ).ToList();
+                classDropdown.options = manager.playerClasses.Select(p => new TMP_Dropdown.OptionData(p.name)).ToList();
 
                 // only show GameMaster option for host connection
                 // -> this helps to test and create GameMasters more easily

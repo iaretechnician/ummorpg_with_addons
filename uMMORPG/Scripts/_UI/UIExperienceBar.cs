@@ -1,11 +1,12 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 public partial class UIExperienceBar : MonoBehaviour
 {
     public GameObject panel;
     public Slider slider;
-    public Text statusText;
+    public TextMeshProUGUI statusText;
 
     void Update()
     {

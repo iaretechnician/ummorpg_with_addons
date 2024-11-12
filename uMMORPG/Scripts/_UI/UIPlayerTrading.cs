@@ -1,5 +1,6 @@
 ﻿// Note: this script has to be on an always-active UI parent, so that we can
 // always find it from other code. (GameObject.Find doesn't find inactive ones)
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,12 +11,12 @@ public partial class UIPlayerTrading : MonoBehaviour
     public UIPlayerTradingSlot slotPrefab;
 
     public Transform otherContent;
-    public Text otherStatusText;
-    public InputField otherGoldInput;
+    public TextMeshProUGUI otherStatusText;
+    public TMP_InputField otherGoldInput;
 
     public Transform myContent;
-    public Text myStatusText;
-    public InputField myGoldInput;
+    public TextMeshProUGUI myStatusText;
+    public TMP_InputField myGoldInput;
 
     public Button lockButton;
     public Button acceptButton;

@@ -1,12 +1,13 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 public partial class UIParty : MonoBehaviour
 {
     public KeyCode hotKey = KeyCode.P;
     public GameObject panel;
-    public Text currentCapacityText;
-    public Text maximumCapacityText;
+    public TextMeshProUGUI currentCapacityText;
+    public TextMeshProUGUI maximumCapacityText;
     public UIPartyMemberSlot slotPrefab;
     public Transform memberContent;
     public Toggle experienceShareToggle;

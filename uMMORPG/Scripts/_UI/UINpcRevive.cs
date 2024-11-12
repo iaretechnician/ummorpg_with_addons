@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 
 public partial class UINpcRevive : MonoBehaviour
@@ -6,7 +7,7 @@ public partial class UINpcRevive : MonoBehaviour
     public static UINpcRevive singleton;
     public GameObject panel;
     public UIDragAndDropable itemSlot;
-    public Text costsText;
+    public TextMeshProUGUI costsText;
     public Button reviveButton;
     [HideInInspector] public int itemIndex = -1;
 

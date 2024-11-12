@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using Mirror;
+using TMPro;
 
 public class UILatency : MonoBehaviour
 {
-    public Text latencyText;
+    public TextMeshProUGUI latencyText;
 
     public float goodThreshold = 0.3f;
     public float okayThreshold = 2;

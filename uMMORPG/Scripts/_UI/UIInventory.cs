@@ -1,5 +1,6 @@
 ﻿// Note: this script has to be on an always-active UI parent, so that we can
 // always react to the hotkey.
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,11 +11,11 @@ public partial class UIInventory : MonoBehaviour
     public GameObject panel;
     public UIInventorySlot slotPrefab;
     public Transform content;
-    public Text goldText;
+    public TextMeshProUGUI goldText;
     public UIDragAndDropable trash;
     public Image trashImage;
     public GameObject trashOverlay;
-    public Text trashAmountText;
+    public TextMeshProUGUI trashAmountText;
 
     [Header("Durability Colors")]
     public Color brokenDurabilityColor = Color.red;

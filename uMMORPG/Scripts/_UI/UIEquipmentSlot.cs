@@ -1,5 +1,6 @@
 ﻿// Attach to the prefab for easier component access by the UI Scripts.
 // Otherwise we would need slot.GetChild(0).GetComponentInChildren<Text> etc.
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,7 +11,7 @@ public class UIEquipmentSlot : MonoBehaviour
     public Image image;
     public Image cooldownCircle;
     public GameObject amountOverlay;
-    public Text amountText;
+    public TextMeshProUGUI amountText;
     public GameObject categoryOverlay;
-    public Text categoryText;
+    public TextMeshProUGUI categoryText;
 }

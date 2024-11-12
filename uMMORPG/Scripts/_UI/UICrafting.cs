@@ -3,6 +3,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using Mirror;
+using TMPro;
 
 public partial class UICrafting : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public partial class UICrafting : MonoBehaviour
     public UIShowToolTip resultSlotToolTip;
     public Button craftButton;
     public Slider progressSlider;
-    public Text resultText;
+    public TextMeshProUGUI resultText;
     public Color successColor = Color.green;
     public Color failedColor = Color.red;
 

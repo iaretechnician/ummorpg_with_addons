@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using TMPro;
+using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
@@ -6,7 +7,7 @@ public class UIConfirmation : MonoBehaviour
 {
     public static UIConfirmation singleton;
     public GameObject panel;
-    public Text messageText;
+    public TextMeshProUGUI messageText;
     public Button confirmButton;
 
     public UIConfirmation()

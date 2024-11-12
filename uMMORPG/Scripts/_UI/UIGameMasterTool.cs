@@ -2,6 +2,7 @@
 // always react to the hotkey.
 
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,25 +12,25 @@ public partial class UIGameMasterTool : MonoBehaviour
     public GameObject panel;
 
     [Header("Server")]
-    public Text connectionsText;
-    public Text maxConnectionsText;
-    public Text onlinePlayerText;
-    public Text uptimeText;
-    public Text tickRateText;
-    public InputField globalChatInput;
+    public TextMeshProUGUI connectionsText;
+    public TextMeshProUGUI maxConnectionsText;
+    public TextMeshProUGUI onlinePlayerText;
+    public TextMeshProUGUI uptimeText;
+    public TextMeshProUGUI tickRateText;
+    public TMP_InputField globalChatInput;
     public Button globalChatSendButton;
     public Button shutdownButton;
 
     [Header("Character")]
     public Toggle invincibleToggle;
-    public InputField levelInput;
-    public InputField experienceInput;
-    public InputField skillExperienceInput;
-    public InputField goldInput;
-    public InputField coinsInput;
+    public TMP_InputField levelInput;
+    public TMP_InputField experienceInput;
+    public TMP_InputField skillExperienceInput;
+    public TMP_InputField goldInput;
+    public TMP_InputField coinsInput;
 
     [Header("Actions")]
-    public InputField playerNameInput;
+    public TMP_InputField playerNameInput;
     public Button warpButton;
     public Button summonButton;
     public Button killButton;

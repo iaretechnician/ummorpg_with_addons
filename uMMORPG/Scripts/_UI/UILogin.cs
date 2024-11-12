@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 using Mirror;
+using TMPro;
 
 public partial class UILogin : MonoBehaviour
 {
@@ -11,10 +12,10 @@ public partial class UILogin : MonoBehaviour
     public NetworkManagerMMO manager; // singleton=null in Start/Awake
     public NetworkAuthenticatorMMO auth;
     public GameObject panel;
-    public Text statusText;
-    public InputField accountInput;
-    public InputField passwordInput;
-    public Dropdown serverDropdown;
+    public TextMeshProUGUI statusText;
+    public TMP_InputField accountInput;
+    public TMP_InputField passwordInput;
+    public TMP_Dropdown serverDropdown;
     public Button loginButton;
     public Button registerButton;
     [TextArea(1, 30)] public string registerMessage = "First time? Just log in and we will\ncreate an account automatically.";
@@ -76,9 +77,7 @@ public partial class UILogin : MonoBehaviour
 
             // copy servers to dropdown; copy selected one to networkmanager ip/port.
             serverDropdown.interactable = !manager.isNetworkActive;
-            serverDropdown.options = manager.serverList.Select(
-                sv => new Dropdown.OptionData(sv.name)
-            ).ToList();
+            serverDropdown.options = manager.serverList.Select(sv => new TMP_Dropdown.OptionData(sv.name)).ToList();
             manager.networkAddress = manager.serverList[serverDropdown.value].ip;
         }
         else panel.SetActive(false);
