@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0176d134e5eff474abab2b146a5b8bf5, type: 3}
+  m_Name: PlayerCraftingExtended
+  m_EditorClassIdentifier: 
+  startingRecipes:
+  - {fileID: 11400000, guid: 1b115f8109e3c3b40b02aaec54a81f7a, type: 2}
+  startingCrafts:
+  - craftProfession: {fileID: 11400000, guid: 2ff5726ac5633154e85eb2ec8b375892, type: 2}
+    startingExp: 1
+  craftingPopupMessages:
+    breakMessage: Your tool broke!
+    boosterMessage: You used a booster!
+    learnedMessage: 'Learned: '
+    learnedIconId: 0
+    learnedSoundId: 0
+    successMessage: Crafting successful!
+    successIconId: 0
+    successSoundId: 0
+    critMessage: Critical Crafting success!
+    critIconId: 0
+    critSoundId: 0
+    failMessage: Crafting failed!
+    failIconId: 0
+    failSoundId: 0
